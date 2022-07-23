@@ -1,0 +1,9 @@
+some conda commands
+conda activate: Use to activate the environment
+conda env export > 'environment_name.yml/yaml' : Used to replicate a given conda environment
+YML/YAML is a text file of instructions of how to create a new environment based of a previous environment. It is used to replicate an environment.
+conda deactivate: Used to deactivate a particular conda environment
+conda env create --prefix ./env -f ../'Previous_environment_location_name'/'environment_name.yml/yaml' : Used to impor a particular exported environment  to an new project.
+conda -n base -c default : Used to update to the latest conda
+
+shortest form for creating a new environment: Enter 'conda create -n your_env_name python = 3.9', then this would come out 'The following New packages will be INSTALLED:' Enter 'y'
